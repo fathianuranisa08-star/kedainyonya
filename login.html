@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKK_FATHIA_PAKET C</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg sticky-top bg-success">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#beranda">
+                Kedai Nyonya Rumah
+            </a>
+
+            <!--tombol hamburger-->
+            <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--menunya-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white" href="index.html#beranda">Beranda</a>
+                    <a class="nav-link text-white" href="index.html#tentangkami">Tentang kami</a>
+                    <a class="nav-link text-white" href="index.html#daftarmenu">Daftar Menu</a>
+                    <a class="nav-link text-white" href="index.html#kontak">Kontak</a>
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FORM -->
+<section class="bg-login">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+                <div class="login-card p-4 shadow">
+                    <h3 class="text-center mb-4">Login</h3>
+                    
+
+    <form onsubmit="login(event)">
+
+        <label>Username</label><br>
+        <input type="text" id="username" class="form-control" placeholder="Masukkan Username!">
+
+        <label>Password</label><br>
+        <input type="password" id="password" class="form-control" placeholder="Masukkan Password!"><br>
+
+        <button type="submit" class="btn bg-tombol text-white">Login</button><br>
+    </form>
+
+        <p>
+            Belum punya akun?
+            <a href="register.html">Registrasi Disini</a>
+        </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-success text-white py-3 text-center">
+    <p class="mb-0">&copy; 2026 Kedai Nyonya Rumah</p>
+</footer>
+
+
+<script src="js/login.js"></script>
+
+
+
+</body>
+</html>

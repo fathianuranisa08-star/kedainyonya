@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKK_FATHIA_PAKET C</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg sticky-top bg-success">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#beranda">
+                Kedai Nyonya Rumah
+            </a>
+
+            <!--tombol hamburger-->
+            <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--menunya-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white" href="index.html#beranda">Beranda</a>
+                    <a class="nav-link text-white" href="#tentangkami">Tentang kami</a>
+                    <a class="nav-link text-white" href="#daftarmenu">Daftar Menu</a>
+                    <a class="nav-link text-white" href="#kontak">Kontak</a>
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="login-section d-flex align-items-center">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+    
+    <!-- FORM -->
+            <div class="col-md-5">
+                <div class="login-card p-4 shadow">
+                    <h3 class="text-center mb-4">Registrasi</h3>
+
+                    <form onsubmit="return register()">
+                        <div class="mb-3">
+                            <label>Username</label>
+                            <input type="text" id="username" class="form-control">
+                        </div>
+
+                    <div class="mb-3">
+                        <label>ponsel</label>
+                        <input type="" id="email" class="form-control">
+                    </div>
+
+                        <div class="mb-3">
+                            <label>Password</label>
+                            <input type="password" id="password" class="form-control">
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+
+                        <p class="text-center mt-3">
+                            Sudah punya akun? <a href="login.html">Login disini</a>
+                        </p>
+                          
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-success text-white py-3 text-center">
+    <p class="mb-0">&copy; 2026 Kedai Nyonya Rumah</p>
+</footer>
+
+<script src="js/register.js"></script>
+
+</body>
+</html>
